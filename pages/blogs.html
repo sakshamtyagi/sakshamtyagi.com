@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Different type of topics cover in these blog posts. Comprehensive detailed article blog post by Saksham Tyagi based on his knowleagde and experience."/>
+  <meta name="keywords" content="Saksham Tyagi, Saksham tyagi articles, saksham tyagi post, saksham tyagi posts, saksham tyagi blogs, saksham tyagi blog, saksham tyagi updates, saksham tyagi article, saksham tyagi news"/>
+  <meta name="author" content="Saksham Tyagi"/>
+  <title>Blogs by Saksham Tyagi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="footer.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2121547541402468"
+     crossorigin="anonymous"></script>
+
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: 'Poppins', sans-serif; background: #f4f4f4; color: #333;}
+    a {text-decoration: none; color: inherit;}
+
+
+      
+    section 
+    {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+      text-align: justify;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border-left: 5px solid rgb(233, 95, 36);
+      padding-left: 10px;
+    }
+
+    .grid {display: grid; gap: 1.5rem;}
+
+    section img {
+  width: 10%;
+  margin-left: 35%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+    @media (max-width: 426px) {
+
+   
+      section h2 {
+        font-size: 1.2rem;
+        
+      }
+      .grid {display: grid; gap: 1rem;}
+
+
+
+
+   section .card h3 {
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+section .card p {
+  font-size: 0.7rem;
+  line-height: 1.7;
+  max-width: 100%;
+}
+
+
+
+
+    }
+
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+
+    .card h3 {
+  color: #e95f24;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #f2f2f2;
+  padding-bottom: 0.4rem;
+}
+
+
+/* BLOGS */
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.blog-list.card.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  gap: 2rem; /* spacing between blog posts */
+}
+
+
+.blog-preview {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-preview:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-preview img {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-meta {
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 0.5em;
+}
+
+.blog-preview h3 {
+  margin: 0.5em 0;
+  font-size: 1.25rem;
+}
+.blog-tags span {
+  display: inline-block;
+  background: #eee;
+  color: #333;
+  font-size: 0.8rem;
+  padding: 0.3em 0.6em;
+  margin-right: 0.4em;
+  border-radius: 4px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 5px;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination a.active {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">   <a href="/index.html"> <img src="/media/Sakshamtyagi_logo.png" alt="Saksham Tyagi Logo"></a>
+    </div>
+    <div class="nav-links">
+      <a href="blogs.html">Blogs</a>
+      <a href="opinions.html">My Opinions</a>
+      <a href="youtube.html">YouTube Journey</a>
+      <a href="https://Distributionblueprint.in">My Platform</a>
+      <a href="books.html">Books</a>
+      <a href="music.html">Music Tracks</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About me</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="blogs.html">Blogs</a>
+    <a href="opinions.html">My Opinions</a>
+      <a href="youtube.html">YouTube Journey</a>
+      <a href="https://Distributionblueprint.in">My Platform</a>
+      <a href="books.html">Books</a>
+      <a href="music.html">Music Tracks</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About me</a>
+      <p>  <span class="earth-icon"></span> Explore My World</p>
+  </div>
+
+  <section id="blogs">
+    <h2>My Blogs</h2>
+    <div class="blog-list card grid">
+  
+      <!-- Blog Post Preview -->
+      <article class="blog-preview"><a href="/pages/blogs/blog_1.html">
+        <img src="/media/Blog post 1.jpeg" alt="Blog 1">
+        <h3>1. Distribution Scams to Avoid: Protecting Your Music and Your Money</a></h3>
+        <p class="blog-meta">Posted on 29 June 2025</p>
+        <p>Uncover the hidden traps in digital music distribution and learn how to protect your rights, royalties, and reputation as an independent artist in a rapidly evolving industry...</p><br>
+        <p class="blog-tags">Tags: <span>#DistributionScams</span> <span>#ProtectYourMusic</span> <span>#FakeDistributors</span> <span>#RoyaltyRights</span> <span>#MusicIndustryTips</span> <span>#IndieArtistSecurity</span> <span>#ArtistAwareness</span></p>
+      </article>
+
+      <article class="blog-preview"><a href="/pages/blogs/blog_2.html">
+        <img src="/media/Blog post 2.jpeg" alt="Blog 1">
+        <h3>2. Why Music Distribution Matters More Than Ever</a></h3>
+        <p class="blog-meta">Posted on 29 June 2025</p>
+        <p>Discover why independent musicians must understand how digital distribution works in today’s streaming-first world...</p><br>
+        <p class="blog-tags">Tags:  <span>#MusicDistribution</span>
+          <span>#IndependentArtist</span>
+          <span>#StreamingPlatforms</span>
+          <span>#DigitalMusic</span>
+          <span>#ArtistTools</span>
+          <span>#RightsManagement</span>
+          <span>#RoyaltyRevenue</span></p>
+      </article>
+
+      <!-- <article class="blog-preview"><a href="\blogs/blog_3.html"></a>
+        <img src="/media/Saksham Tyagi creator event.webp" alt="Blog 1">
+        <h3>3. Why Music Distribution Matters More Than Ever</a></h3>
+        <p class="blog-meta">Posted on 01 Aug 2025</p>
+        <p>Discover why independent musicians must understand how digital distribution works in today’s streaming-first world...</p><br>
+
+        <p class="blog-tags">Tags: <span>#MusicBasics</span> <span>#Streaming</span></p>
+      </article> -->
+
+
+      <!-- Repeat for 10 posts per page -->
+  
+    </div>
+  
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="#page-1" class="active">1</a>
+      <a href="#page-2">2</a>
+      <a href="#page-3">3</a>
+      <a href="#page-4">4</a>
+      <a href="#page-5">5</a>
+      <a href="#next">Next &raquo;</a>
+    </div>
+  </section>
+  
+
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>My Message</h3>
+            <p>Stay positive, work hard, and trust the journey. Every step forward is progress towards your dreams.</p>
+            <div class="social-links">
+              <a href="https://facebook.com/officialsakshamtyagi" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://x.com/iamsakshamtyagi" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://instagram.com/officialsakshamtyagi" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://linkedin.com/in/iamsakshamtyagi" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://youtube.com/@sakshamtyagi" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+              <li><a href="https://Distributionblueprint.in">Distribution Blueprint</a></li>
+              <li><a href="https://Distributionblueprint.in/pages/book.html">My Book</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h3>Legal</h3>
+          <ul class="footer-links">
+              <li><a href="privacypolicy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Use</a></li>
+              <li><a href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-section">
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Bijnor, Uttar Pradesh, India</p>
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+    <p>&copy; 2025 Saksham Tyagi. All Rights Reserved.</p>
+</div>
+</footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
